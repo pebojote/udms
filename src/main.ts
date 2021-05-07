@@ -4,7 +4,4 @@ import router from './router/index';
 
 Vue.config.productionTip = false
 
-new Vue({
-  router: router,
-  render: h => h(App),
-}).$mount('#app')
+new Vue({ router: router, render: h => h(App), data: { isActive: true }}).$mount('#app')
