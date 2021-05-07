@@ -1,29 +1,12 @@
-# udms
+<img src=".udms/assets/images/udms-banner.png" width="100%">
 
-## Project setup
-```
-npm install
-```
+# Upgrade Digital Marketing Services Inc.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Upgrade Digital Marketing Services is a one-stop-shop marketing and IT solutions company
+that was established through the humble beginnings of 3 youngs entrepreneur during
+COVID-19 pandemic. Our willingness to provide strong and reliable solutions for
+Marketing and IT requirements of every business drives us to start the company.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## License
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+GPL-3.0 © [UDMS](#)
