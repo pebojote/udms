@@ -10,11 +10,33 @@ const routes: Array<RouteConfig> = [
     component: () => import('../views/Home.vue')
   },
   {
+    path: '/chart',
+    name: 'Chart',
+    component: () => import('../views/Chart.vue')
+  },
+  {
+    path: '/founder',
+    name: 'Founder',
+    component: () => import('../views/Founder.vue')
+  },
+  {
+    path: '/partner',
+    name: 'Partner',
+    component: () => import('../views/Partner.vue')
+  },
+  {
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: () => import('../views/Portfolio.vue')
+  },
+  {
+    path: '/service',
+    name: 'Service',
+    component: () => import('../views/Service.vue')
+  },
+  {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import('../views/About.vue')
   }
 ]
