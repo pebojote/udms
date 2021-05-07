@@ -1,32 +1,117 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <router-link to="/" class="navbar-brand">UDMS</router-link>
+        <span class="mobile__size">
+          <span class="d-flex flex-grow-1"></span>
+          <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-expanded="false" aria-controls="offcanvasExample">
+            More
+          </button>
+        </span>
+        <span class="desktop__size">
+          <span class="d-flex flex-grow-1"></span>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <router-link to="/chart" class="nav-link">
+                Chart
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/founder" class="nav-link">
+                Founder
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/partner" class="nav-link">
+                Partner
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/portfolio" class="nav-link">
+                Porfolio
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/service" class="nav-link">
+                Service
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/about" class="nav-link">
+                About
+              </router-link>
+            </li>
+          </ul>
+        </span>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <router-link to="/chart">
+                    Chart
+                  </router-link>
+                </li>
+                <li class="list-group-item">
+                  <router-link to="/founder">
+                    Founder
+                  </router-link>
+                </li>
+                <li class="list-group-item">
+                  <router-link to="/partner">
+                    Partner
+                  </router-link>
+                </li>
+                <li class="list-group-item">
+                  <router-link to="/portfolio">
+                    Porfolio
+                  </router-link>
+                </li>
+                <li class="list-group-item">
+                  <router-link to="/service">
+                    Service
+                  </router-link>
+                </li>
+                <li class="list-group-item">
+                  <router-link to="/about">
+                    About
+                  </router-link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <router-view/>
   </div>
 </template>
 
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  .mobile__size {
+  display: none;
   }
-}
+  
+  .desktop__size {
+  display: inline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .mobile__size {
+      display: inline;
+    }
+  
+    .desktop__size {
+      display: none;
+    }
+  
+  }
 </style>
