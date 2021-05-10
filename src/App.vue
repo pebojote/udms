@@ -46,39 +46,41 @@
         </span>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              UDMS
+            </h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <router-link to="/chart">
+                  <router-link to="/chart" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Chart
                   </router-link>
                 </li>
                 <li class="list-group-item">
-                  <router-link to="/founder">
+                  <router-link to="/founder" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Founder
                   </router-link>
                 </li>
                 <li class="list-group-item">
-                  <router-link to="/partner">
+                  <router-link to="/partner" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Partner
                   </router-link>
                 </li>
                 <li class="list-group-item">
-                  <router-link to="/portfolio">
+                  <router-link to="/portfolio" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Porfolio
                   </router-link>
                 </li>
                 <li class="list-group-item">
-                  <router-link to="/service">
+                  <router-link to="/service" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Service
                   </router-link>
                 </li>
                 <li class="list-group-item">
-                  <router-link to="/about">
+                  <router-link to="/about" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     About
                   </router-link>
                 </li>
