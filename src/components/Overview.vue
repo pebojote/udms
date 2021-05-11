@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div class="p-2">
+    <div class="mt-1 mb-1"></div>
+    <img class="img-fluid img-thumbnail rounded mx-auto d-block" alt="UDMS logo" src="@/assets/logo.png">
     <h1 class="display-1 fw-bold">Upgrade Digital Marketing Services Inc.</h1>
-    <div class="card">
+    <div class="card border-0">
       <div class="card-body">
         <p class="lead">
           Upgrade Digital Marketing Services is a one-stop-shop marketing 
@@ -12,8 +14,9 @@
         </p>
       </div>
     </div>
+    <div class="mt-5 mb-5"></div>
     <h1 class="display-3">About Us</h1>
-    <div class="card">
+    <div class="card border-0">
       <div class="card-body">
         <p class="lead">
           Upgrade Digital Marketing Services is a one-stop-shop marketing 
@@ -24,8 +27,9 @@
         </p>
       </div>
     </div>
+    <div class="mt-5 mb-5"></div>
     <h1 class="display-3">History</h1>
-    <div class="card">
+    <div class="card border-0">
       <div class="card-body">
         <p class="lead">
           In October 19, 2020, C19 Creative Marketing Solutions was discovered. Then, in November 04, 2020,
@@ -34,6 +38,7 @@
         </p>
       </div>
     </div>
+    <div class="mt-5 mb-5"></div>
   </div>
 </template>
 
