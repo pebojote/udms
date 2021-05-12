@@ -1,7 +1,7 @@
 <template>
   <div class="p-2">
     <div class="mt-1 mb-1"></div>
-    <img class="img-fluid img-thumbnail rounded mx-auto d-block" alt="UDMS logo" src="@/assets/logo.png">
+    <img class="img-fluid img-thumbnail rounded mx-auto d-block" alt="UDMS logo" src="@/assets/images/logo.png">
     <h1 class="display-1 fw-bold">Upgrade Digital Marketing Services Inc.</h1>
     <div class="card border-0">
       <div class="card-body">
