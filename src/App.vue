@@ -14,7 +14,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <router-link to="/chart" class="nav-link">
-                Chart
+                Organizational Chart
               </router-link>
             </li>
             <li class="nav-item">
