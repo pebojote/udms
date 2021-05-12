@@ -34,7 +34,7 @@
             </li>
             <li class="nav-item">
               <router-link to="/service" class="nav-link">
-                Service
+                Services
               </router-link>
             </li>
             <li class="nav-item">
