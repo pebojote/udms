@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <Overview msg="Welcome to Your Vue.js + TypeScript App"/>
     <Footer />
   </div>
