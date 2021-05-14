@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2">
+  <div>
     <div class="mt-1 mb-1"></div>
     <h1 class="display-1 fw-bold">Chart</h1>
     <Org />
