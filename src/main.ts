@@ -12,4 +12,4 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
-new Vue({ router: router, render: h => h(App), data: { isActive: true }}).$mount('#app')
+new Vue({render: h => h(App), router: router }).$mount('#app')
