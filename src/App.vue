@@ -37,11 +37,6 @@
                 Services
               </router-link>
             </li>
-            <li class="nav-item">
-              <router-link to="/about" class="nav-link">
-                About
-              </router-link>
-            </li>
           </ul>
         </span>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -77,11 +72,6 @@
                 <li class="list-group-item">
                   <router-link to="/service" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
                     Service
-                  </router-link>
-                </li>
-                <li class="list-group-item">
-                  <router-link to="/about" class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" aria-label="Close">
-                    About
                   </router-link>
                 </li>
               </ul>

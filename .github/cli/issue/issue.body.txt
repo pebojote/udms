@@ -1,0 +1,17 @@
+Tasks:
+
+  - [x] Graphics and Branding
+
+  - [ ] Graphic Designs      
+                                           
+  - [ ] Design and Develop
+
+  - [ ] E-Commerce
+
+  - [ ] Informative Website
+
+  - [ ] Company Website
+
+  - [ ] Company Web Application
+
+  - [ ] Other Web Application
