@@ -33,11 +33,6 @@ const routes: Array<RouteConfig> = [
     path: '/service',
     name: 'Service',
     component: () => import('../views/Service.vue')
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
   }
 ]
 
