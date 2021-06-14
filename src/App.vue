@@ -14,7 +14,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <router-link to="/chart" class="nav-link">
-                Organizational Chart
+                Chart
               </router-link>
             </li>
             <li class="nav-item">
@@ -41,9 +41,11 @@
         </span>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-              UDMS
-            </h5>
+            <router-link to="/chart">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                UDMS
+              </h5>
+            </router-link>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">

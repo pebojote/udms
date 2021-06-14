@@ -1,32 +1,37 @@
 <template>
-  <div class="p-2">
-    <div class="mt-1 mb-1"></div>
-    <img class="img-fluid img-thumbnail rounded mx-auto d-block" alt="UDMS logo" src="@/assets/images/logo.png">
-    <h1 class="display-1 fw-bold">Upgrade Digital Marketing Services Inc.</h1>
-    
-    <div class="mt-5 mb-5"></div>
-    <h1 class="display-3">About Us</h1>
-    <div class="card border-0">
-      <div class="card-body">
-        <p class="lead">
-          Upgrade Digital Marketing Services is a one-stop-shop marketing 
-          and IT solutions company that was established through the humble 
-          beginnings of 2 young entrepreneur during COVID-19 pandemic. 
-          Our willingness to provide strong and reliable solutions for 
-          Marketing and IT requirements of every business drives us to start the company.
-        </p>
+  <div class="container">
+        <div class="row">
+          <div class="mt-5 mb-5"></div>
+          <img class="img-fluid img-thumbnail rounded mx-auto d-block border-0" alt="UDMS logo" src="https://user-images.githubusercontent.com/38276345/121454437-5cf96f80-c9d5-11eb-8596-18aa4b699178.png">
+          <h1 class="font-weight-bold text-center" style="font-size: 4vw">"Your Path To Success Stories!"</h1>
+        </div>
+        <div class="row">
+          <div class="mt-5 mb-5"></div>
+          <h1 class="display-3">About Us</h1>
+          <div class="card border-0">
+            <div class="card-body">
+              <p class="lead">
+                Upgrade Digital Marketing Services is a one-stop-shop marketing 
+                and IT solutions company that was established through the humble 
+                beginnings of 2 young entrepreneur during COVID-19 pandemic. 
+                Our willingness to provide strong and reliable solutions for 
+                Marketing and IT requirements of every business drives us to start the company.
+              </p>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="mt-5 mb-5"></div>
+        <h1 class="display-3">History</h1>
+        <div class="card border-0">
+          <div class="card-body">
+            <p class="lead">
+              Upgrade started on October 29, 2020, as C19 Creative Marketing Solutions offering only three types of services which are Graphic Designs, Printing Services, and Video Editing. On December 03, 2020, we registered and decided to change our name to Upgrade Digital Marketing Services and became a one-stop-shop marketing and IT solutions company. In March 2021, as a global strategy of the company, we expand the business in the USA.
+            </p>
+          </div>
+        </div>
+        <div class="mt-5 mb-5"></div>
       </div>
-    </div>
-    <div class="mt-5 mb-5"></div>
-    <h1 class="display-3">History</h1>
-    <div class="card border-0">
-      <div class="card-body">
-        <p class="lead">
-          Upgrade started on October 29, 2020, as C19 Creative Marketing Solutions offering only three types of services which are Graphic Designs, Printing Services, and Video Editing. On December 03, 2020, we registered and decided to change our name to Upgrade Digital Marketing Services and became a one-stop-shop marketing and IT solutions company. In March 2021, as a global strategy of the company, we expand the business in the USA.
-        </p>
-      </div>
-    </div>
-    <div class="mt-5 mb-5"></div>
   </div>
 </template>
 
@@ -55,4 +60,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>
