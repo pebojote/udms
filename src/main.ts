@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import App from './App.vue'
 import router from './router/index';
 
-library.add(faFacebookF, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub, faCopyright)
+library.add(faFacebookF, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub, faCopyright);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
