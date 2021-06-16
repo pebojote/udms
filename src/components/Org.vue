@@ -1,7 +1,7 @@
 <template>
     <div class="p-2">
         <!-- <div class="p-0" ref="tree"></div> -->
-        <img src="https://user-images.githubusercontent.com/38276345/121984696-02418880-cdc6-11eb-93d2-490cec73cdbf.png" class="img-fluid" alt="...">
+        <img src="https://user-images.githubusercontent.com/38276345/122142955-fe277080-ce82-11eb-81c5-0bb2030a7ec1.png" class="img-fluid" alt="...">
     </div>
 </template>
 
