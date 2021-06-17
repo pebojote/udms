@@ -17,7 +17,7 @@
             <div class="carousel-item" data-bs-interval="2000">
               <img src="https://user-images.githubusercontent.com/38276345/122318427-98ee8080-cf51-11eb-8c08-b1db7895ba19.png" class="mx-auto d-block img-fluid" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-dark">ProSpark</h5>
+                <h5 class="text-dark">INT.</h5>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
